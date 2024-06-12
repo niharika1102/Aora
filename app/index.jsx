@@ -7,9 +7,9 @@ import tw from 'twrnc'
 export default function App() {
   return (
     <View style={tw `flex-1 items-center justify-center bg-white`}>
-      <Text style={tw `text-3xl`}>Aora</Text>
+      <Text style={tw `text-3xl font-bold`}>Aora</Text>
       <StatusBar style="auto"/>
-      <Link href="/profile" style={{color: 'red'}}>Go to profile</Link>
+      <Link href="/profile" style={tw `text-blue-500`}>Go to profile</Link>
     </View>
   )
 }
